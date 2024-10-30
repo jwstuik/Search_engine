@@ -1,0 +1,102 @@
+<html>
+    <head>
+        <title> result page </title>
+    <style>
+            body {
+  margin: 0;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.under {
+    row-gap: 0px;
+    margin: 0px;
+    background-color: #C6C6C6;
+    padding: 10px;
+    width: 850px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.under > p {
+    background-color: #C6C6C6;
+    padding: 10px;
+    width: 850px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.above {
+    display: grid;
+    row-gap: 10px;
+    margin: 100px;
+}
+.above > div {
+    background-color: #C6C6C6;
+    padding: 10px;
+    width:750px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+    </style>
+        </head>
+            <body>
+            <div class="header"> 
+            <h1> Results </h1>
+            </div>
+                <div class="topnav">
+                 <a href="#">Collection</a>
+                  <a href="#">About</a>
+                  <a href="#">F.A.Q.</a>
+                </div>
+                <div class="above">
+                         {% for result in output_result %}
+                        <div>  
+                    <b>Position:</b> {{ result[0] }} |
+                    <b>Document:</b> {{ result[1] }} |
+                    <b>Similarity:</b> {{ result[2] }} |
+                         {% if result[3] == 'low' %}
+                            <b>Recommendation scale:</b><span style="background-color:Tomato;">{{ result[3] }} </span> |
+                        {% elif result[3] == 'medium' %}
+                            <b>Recommendation scale:</b><span style="background-color:Orange;">{{ result[3] }} </span> |
+                        {% elif result[3] == 'high' %}
+                            <b>Recommendation scale:</b><span style="background-color:MediumSeaGreen;">{{ result[3] }} </span> |
+                        {% endif %}
+                        {% if (result[5] and result[4]) is not defined %}
+                            <p no preview available </p>
+                        {% else %}   </div>  
+                       <p class="under"> {{ result[5][:result[5].index(result[4])] }} 
+                    <span style="color:red;">{{ result[4] }} </span> {{ result[5][result[5].index(result[4])+result[4]|length:] }} </p> 
+                    {% endif %}
+                   </p> {% endfor %} 
+                </div> </p>
+
+        
+    </body>
+</html>
+        
+        

@@ -1,0 +1,11 @@
+Apple klaagt makers van spywareprogramma Pegasus aan
+Apple heeft de Israëlische NSO Group, makers van de spionagesoftware Pegasus, in Amerika aangeklaagd. Apple wil op deze manier voorkomen dat de spionagesoftware in de toekomst nog wordt gebruikt om in te breken in Apple-producten.
+Hoewel de NSO Group niet zelf inbrak in telefoons of tablets van gebruikers, heeft het bedrijf de software wel ontwikkeld. De software wordt door inlichtingen- en opsporingsdiensten in veertig landen gebruikt om telefoons en tablets van doelwitten te kraken.
+Dat blijkt uit in juli gelekte documenten met telefoonnummers van 50.000 slachtoffers van hacks met de software. Telefoons van onder anderen journalisten, mensenrechtenactivisten en advocaten werden met de software gehackt. Het ging daarbij niet alleen om Apple-gebruikers.
+Beveiligingsupdate
+De malware kon via de iMessage-app op Apple-apparaten worden gezet. Apple kwam in september met een beveiligingsupdate waardoor de spyware van de NSO Group niet meer op telefoons, laptops, iPads en horloges gezet kon worden.
+In de aanklacht die Apple in Californië indiende tegen NSO Group zegt het bedrijf dat NSO Group-medewerkers "amorele huurlingen zijn die een geavanceerde cyberspionagemachine hebben ontwikkeld die uitnodigt tot herhaaldelijk en grof misbruik".
+Volgens Apple is de software gebruikt om een klein aantal Apple-gebruikers wereldwijd aan te vallen. "Door hun landen gesteunde partijen als de NSO Group besteden miljoenen aan geavanceerde spionagetechnologie zonder dat ze er aansprakelijk voor worden gesteld. Dat moet veranderen", stelt Craig Federighi, vicedirecteur van de software-afdeling van Apple.
+Facebook
+Eerder startte Facebook ook al een rechtszaak tegen de NSO Group omdat het Israëlische bedrijf software had ontwikkeld waarmee mogelijk telefoons gehackt konden worden via WhatsApp.
+NSO Group heeft altijd ontkend schuldig te zijn en beweert dat de software van het bedrijf wordt gebruikt om terrorisme en andere misdaden te bestrijden.
